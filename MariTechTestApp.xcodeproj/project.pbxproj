@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A2E9594F73CCC679336A19 /* Pods_MariTechTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0EE1C7FBD9D57A799D39B5 /* Pods_MariTechTestAppTests.framework */; };
+		432641761F23FF7383EACDB1 /* Pods_MariTechTestApp_MariTechTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF0D51A9F6DB9291A357980 /* Pods_MariTechTestApp_MariTechTestAppUITests.framework */; };
+		6734C1459F83B332CBEEE410 /* Pods_MariTechTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25386F7234AF43A79DFB5363 /* Pods_MariTechTestApp.framework */; };
 		DED9B0B825ED436300B637F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0B725ED436300B637F2 /* AppDelegate.swift */; };
 		DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0B925ED436300B637F2 /* SceneDelegate.swift */; };
 		DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0BB25ED436300B637F2 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		DED9B0C425ED436800B637F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED9B0C225ED436800B637F2 /* LaunchScreen.storyboard */; };
 		DED9B0CF25ED436900B637F2 /* MariTechTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0CE25ED436900B637F2 /* MariTechTestAppTests.swift */; };
 		DED9B0DA25ED436900B637F2 /* MariTechTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0D925ED436900B637F2 /* MariTechTestAppUITests.swift */; };
+		DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B10A25ED481D00B637F2 /* RealmManager.swift */; };
+		DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B11025ED483E00B637F2 /* PhotoObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0EE1C7FBD9D57A799D39B5 /* Pods_MariTechTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MariTechTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25386F7234AF43A79DFB5363 /* Pods_MariTechTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MariTechTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF0D51A9F6DB9291A357980 /* Pods_MariTechTestApp_MariTechTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MariTechTestApp_MariTechTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463856C583520D6F8736610F /* Pods-MariTechTestApp-MariTechTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestApp-MariTechTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MariTechTestApp-MariTechTestAppUITests/Pods-MariTechTestApp-MariTechTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9E8F49E8E0DA1087D0849B /* Pods-MariTechTestApp-MariTechTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestApp-MariTechTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MariTechTestApp-MariTechTestAppUITests/Pods-MariTechTestApp-MariTechTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CEBBF72B1B1AAA7B2BE8463 /* Pods-MariTechTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-MariTechTestAppTests/Pods-MariTechTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA377A0ECE02CF465DAA1A75 /* Pods-MariTechTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MariTechTestAppTests/Pods-MariTechTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D4ABDEBCFD13EBB9935BEC /* Pods-MariTechTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestApp.debug.xcconfig"; path = "Target Support Files/Pods-MariTechTestApp/Pods-MariTechTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC45D18B88D9B92D0D324DBA /* Pods-MariTechTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MariTechTestApp.release.xcconfig"; path = "Target Support Files/Pods-MariTechTestApp/Pods-MariTechTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		DED9B0B425ED436300B637F2 /* MariTechTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MariTechTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED9B0B725ED436300B637F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED9B0B925ED436300B637F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		DED9B0D525ED436900B637F2 /* MariTechTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MariTechTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED9B0D925ED436900B637F2 /* MariTechTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariTechTestAppUITests.swift; sourceTree = "<group>"; };
 		DED9B0DB25ED436900B637F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED9B10A25ED481D00B637F2 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		DED9B11025ED483E00B637F2 /* PhotoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6734C1459F83B332CBEEE410 /* Pods_MariTechTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A2E9594F73CCC679336A19 /* Pods_MariTechTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432641761F23FF7383EACDB1 /* Pods_MariTechTestApp_MariTechTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8020C069EC74771B13F65E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D4ABDEBCFD13EBB9935BEC /* Pods-MariTechTestApp.debug.xcconfig */,
+				DC45D18B88D9B92D0D324DBA /* Pods-MariTechTestApp.release.xcconfig */,
+				463856C583520D6F8736610F /* Pods-MariTechTestApp-MariTechTestAppUITests.debug.xcconfig */,
+				6A9E8F49E8E0DA1087D0849B /* Pods-MariTechTestApp-MariTechTestAppUITests.release.xcconfig */,
+				AA377A0ECE02CF465DAA1A75 /* Pods-MariTechTestAppTests.debug.xcconfig */,
+				7CEBBF72B1B1AAA7B2BE8463 /* Pods-MariTechTestAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8AF4711882EF8A6B42994DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25386F7234AF43A79DFB5363 /* Pods_MariTechTestApp.framework */,
+				2AF0D51A9F6DB9291A357980 /* Pods_MariTechTestApp_MariTechTestAppUITests.framework */,
+				0E0EE1C7FBD9D57A799D39B5 /* Pods_MariTechTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DED9B0AB25ED436200B637F2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				DED9B0CD25ED436900B637F2 /* MariTechTestAppTests */,
 				DED9B0D825ED436900B637F2 /* MariTechTestAppUITests */,
 				DED9B0B525ED436300B637F2 /* Products */,
+				8020C069EC74771B13F65E29 /* Pods */,
+				A8AF4711882EF8A6B42994DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,7 @@
 		DED9B0B625ED436300B637F2 /* MariTechTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B10825ED47F800B637F2 /* Servises */,
 				DED9B0B725ED436300B637F2 /* AppDelegate.swift */,
 				DED9B0B925ED436300B637F2 /* SceneDelegate.swift */,
 				DED9B0BB25ED436300B637F2 /* ViewController.swift */,
@@ -128,6 +173,32 @@
 			path = MariTechTestAppUITests;
 			sourceTree = "<group>";
 		};
+		DED9B10825ED47F800B637F2 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B10F25ED483E00B637F2 /* Models */,
+				DED9B10925ED481D00B637F2 /* Realm */,
+			);
+			path = Servises;
+			sourceTree = "<group>";
+		};
+		DED9B10925ED481D00B637F2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B10A25ED481D00B637F2 /* RealmManager.swift */,
+			);
+			name = Realm;
+			path = "MariTechTestApp/New Group/Realm";
+			sourceTree = SOURCE_ROOT;
+		};
+		DED9B10F25ED483E00B637F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B11025ED483E00B637F2 /* PhotoObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED9B0DE25ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestApp" */;
 			buildPhases = (
+				4225B0F367672D9B3942E8BA /* [CP] Check Pods Manifest.lock */,
 				DED9B0B025ED436300B637F2 /* Sources */,
 				DED9B0B125ED436300B637F2 /* Frameworks */,
 				DED9B0B225ED436300B637F2 /* Resources */,
+				D53452A3D4368B9ACC5C6AF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED9B0E125ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppTests" */;
 			buildPhases = (
+				79ABB9FE25188D40BF279603 /* [CP] Check Pods Manifest.lock */,
 				DED9B0C625ED436900B637F2 /* Sources */,
 				DED9B0C725ED436900B637F2 /* Frameworks */,
 				DED9B0C825ED436900B637F2 /* Resources */,
@@ -170,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED9B0E425ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppUITests" */;
 			buildPhases = (
+				7F04F467467F269176D4B155 /* [CP] Check Pods Manifest.lock */,
 				DED9B0D125ED436900B637F2 /* Sources */,
 				DED9B0D225ED436900B637F2 /* Frameworks */,
 				DED9B0D325ED436900B637F2 /* Resources */,
+				80B5AF3514FBC2161E067B0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +329,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4225B0F367672D9B3942E8BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MariTechTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79ABB9FE25188D40BF279603 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MariTechTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F04F467467F269176D4B155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MariTechTestApp-MariTechTestAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B5AF3514FBC2161E067B0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp-MariTechTestAppUITests/Pods-MariTechTestApp-MariTechTestAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp-MariTechTestAppUITests/Pods-MariTechTestApp-MariTechTestAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp-MariTechTestAppUITests/Pods-MariTechTestApp-MariTechTestAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53452A3D4368B9ACC5C6AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp/Pods-MariTechTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp/Pods-MariTechTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MariTechTestApp/Pods-MariTechTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DED9B0B025ED436300B637F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */,
+				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B0B825ED436300B637F2 /* AppDelegate.swift in Sources */,
 				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
+				DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +614,7 @@
 		};
 		DED9B0DF25ED436900B637F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D4ABDEBCFD13EBB9935BEC /* Pods-MariTechTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,12 +629,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DED9B0E025ED436900B637F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC45D18B88D9B92D0D324DBA /* Pods-MariTechTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,12 +650,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		DED9B0E225ED436900B637F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA377A0ECE02CF465DAA1A75 /* Pods-MariTechTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +679,7 @@
 		};
 		DED9B0E325ED436900B637F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEBBF72B1B1AAA7B2BE8463 /* Pods-MariTechTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +702,7 @@
 		};
 		DED9B0E525ED436900B637F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463856C583520D6F8736610F /* Pods-MariTechTestApp-MariTechTestAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +723,7 @@
 		};
 		DED9B0E625ED436900B637F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9E8F49E8E0DA1087D0849B /* Pods-MariTechTestApp-MariTechTestAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

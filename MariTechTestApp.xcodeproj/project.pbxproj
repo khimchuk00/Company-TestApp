@@ -30,6 +30,10 @@
 		DED9B13A25ED4E1B00B637F2 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */; };
 		DED9B13F25ED4E5200B637F2 /* BindingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13E25ED4E5200B637F2 /* BindingValue.swift */; };
 		DED9B14425ED4E5600B637F2 /* OptionalBindingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B14325ED4E5600B637F2 /* OptionalBindingValue.swift */; };
+		DED9B14D25ED4EB900B637F2 /* HistoryResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B14B25ED4EB900B637F2 /* HistoryResultCell.swift */; };
+		DED9B14E25ED4EB900B637F2 /* HistoryResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */; };
+		DED9B15325ED4EE100B637F2 /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15225ED4EE100B637F2 /* SearchHistory.swift */; };
+		DED9B15825ED4EE500B637F2 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15725ED4EE500B637F2 /* HistoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,10 @@
 		DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
 		DED9B13E25ED4E5200B637F2 /* BindingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingValue.swift; sourceTree = "<group>"; };
 		DED9B14325ED4E5600B637F2 /* OptionalBindingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalBindingValue.swift; sourceTree = "<group>"; };
+		DED9B14B25ED4EB900B637F2 /* HistoryResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryResultCell.swift; sourceTree = "<group>"; };
+		DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryResultCell.xib; sourceTree = "<group>"; };
+		DED9B15225ED4EE100B637F2 /* SearchHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistory.swift; sourceTree = "<group>"; };
+		DED9B15725ED4EE500B637F2 /* HistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,7 @@
 		DED9B0B625ED436300B637F2 /* MariTechTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B14825ED4E9900B637F2 /* Controllers */,
 				DED9B13625ED4E1A00B637F2 /* Extensions */,
 				DED9B12225ED4D3000B637F2 /* Helpers */,
 				DED9B10825ED47F800B637F2 /* Servises */,
@@ -259,6 +268,33 @@
 				DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DED9B14825ED4E9900B637F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B14925ED4EAC00B637F2 /* History */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DED9B14925ED4EAC00B637F2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B15225ED4EE100B637F2 /* SearchHistory.swift */,
+				DED9B15725ED4EE500B637F2 /* HistoryViewModel.swift */,
+				DED9B14A25ED4EB900B637F2 /* CustomCells */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		DED9B14A25ED4EB900B637F2 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B14B25ED4EB900B637F2 /* HistoryResultCell.swift */,
+				DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +408,7 @@
 				DED9B0C425ED436800B637F2 /* LaunchScreen.storyboard in Resources */,
 				DED9B0C125ED436800B637F2 /* Assets.xcassets in Resources */,
 				DED9B0BF25ED436300B637F2 /* Main.storyboard in Resources */,
+				DED9B14E25ED4EB900B637F2 /* HistoryResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +537,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED9B11B25ED4D0D00B637F2 /* NetworkManager.swift in Sources */,
+				DED9B15825ED4EE500B637F2 /* HistoryViewModel.swift in Sources */,
 				DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */,
 				DED9B14425ED4E5600B637F2 /* OptionalBindingValue.swift in Sources */,
+				DED9B14D25ED4EB900B637F2 /* HistoryResultCell.swift in Sources */,
 				DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */,
 				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B11C25ED4D0D00B637F2 /* SearchPhotoObject.swift in Sources */,
@@ -514,6 +553,7 @@
 				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
 				DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */,
 				DED9B13F25ED4E5200B637F2 /* BindingValue.swift in Sources */,
+				DED9B15325ED4EE100B637F2 /* SearchHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

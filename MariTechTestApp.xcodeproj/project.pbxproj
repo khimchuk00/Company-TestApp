@@ -28,6 +28,8 @@
 		DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */; };
 		DED9B13925ED4E1B00B637F2 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13725ED4E1A00B637F2 /* UIView+Nib.swift */; };
 		DED9B13A25ED4E1B00B637F2 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */; };
+		DED9B13F25ED4E5200B637F2 /* BindingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13E25ED4E5200B637F2 /* BindingValue.swift */; };
+		DED9B14425ED4E5600B637F2 /* OptionalBindingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B14325ED4E5600B637F2 /* OptionalBindingValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetchServise.swift; sourceTree = "<group>"; };
 		DED9B13725ED4E1A00B637F2 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		DED9B13E25ED4E5200B637F2 /* BindingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingValue.swift; sourceTree = "<group>"; };
+		DED9B14325ED4E5600B637F2 /* OptionalBindingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalBindingValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +245,8 @@
 		DED9B12225ED4D3000B637F2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B13E25ED4E5200B637F2 /* BindingValue.swift */,
+				DED9B14325ED4E5600B637F2 /* OptionalBindingValue.swift */,
 				DED9B12325ED4D3A00B637F2 /* MariTechError.swift */,
 			);
 			path = Helpers;
@@ -495,6 +501,7 @@
 			files = (
 				DED9B11B25ED4D0D00B637F2 /* NetworkManager.swift in Sources */,
 				DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */,
+				DED9B14425ED4E5600B637F2 /* OptionalBindingValue.swift in Sources */,
 				DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */,
 				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B11C25ED4D0D00B637F2 /* SearchPhotoObject.swift in Sources */,
@@ -506,6 +513,7 @@
 				DED9B12425ED4D3A00B637F2 /* MariTechError.swift in Sources */,
 				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
 				DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */,
+				DED9B13F25ED4E5200B637F2 /* BindingValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED9B0B825ED436300B637F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0B725ED436300B637F2 /* AppDelegate.swift */; };
+		DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0B925ED436300B637F2 /* SceneDelegate.swift */; };
+		DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0BB25ED436300B637F2 /* ViewController.swift */; };
+		DED9B0BF25ED436300B637F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED9B0BD25ED436300B637F2 /* Main.storyboard */; };
+		DED9B0C125ED436800B637F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9B0C025ED436800B637F2 /* Assets.xcassets */; };
+		DED9B0C425ED436800B637F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED9B0C225ED436800B637F2 /* LaunchScreen.storyboard */; };
+		DED9B0CF25ED436900B637F2 /* MariTechTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0CE25ED436900B637F2 /* MariTechTestAppTests.swift */; };
+		DED9B0DA25ED436900B637F2 /* MariTechTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B0D925ED436900B637F2 /* MariTechTestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED9B0CB25ED436900B637F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED9B0AC25ED436300B637F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED9B0B325ED436300B637F2;
+			remoteInfo = MariTechTestApp;
+		};
+		DED9B0D625ED436900B637F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED9B0AC25ED436300B637F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED9B0B325ED436300B637F2;
+			remoteInfo = MariTechTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED9B0B425ED436300B637F2 /* MariTechTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MariTechTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED9B0B725ED436300B637F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED9B0B925ED436300B637F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DED9B0BB25ED436300B637F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DED9B0BE25ED436300B637F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DED9B0C025ED436800B637F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DED9B0C325ED436800B637F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DED9B0C525ED436800B637F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED9B0CA25ED436900B637F2 /* MariTechTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MariTechTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED9B0CE25ED436900B637F2 /* MariTechTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariTechTestAppTests.swift; sourceTree = "<group>"; };
+		DED9B0D025ED436900B637F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED9B0D525ED436900B637F2 /* MariTechTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MariTechTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED9B0D925ED436900B637F2 /* MariTechTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MariTechTestAppUITests.swift; sourceTree = "<group>"; };
+		DED9B0DB25ED436900B637F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED9B0B125ED436300B637F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0C725ED436900B637F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0D225ED436900B637F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED9B0AB25ED436200B637F2 = {
+			isa = PBXGroup;
+			children = (
+				DED9B0B625ED436300B637F2 /* MariTechTestApp */,
+				DED9B0CD25ED436900B637F2 /* MariTechTestAppTests */,
+				DED9B0D825ED436900B637F2 /* MariTechTestAppUITests */,
+				DED9B0B525ED436300B637F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED9B0B525ED436300B637F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B0B425ED436300B637F2 /* MariTechTestApp.app */,
+				DED9B0CA25ED436900B637F2 /* MariTechTestAppTests.xctest */,
+				DED9B0D525ED436900B637F2 /* MariTechTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED9B0B625ED436300B637F2 /* MariTechTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B0B725ED436300B637F2 /* AppDelegate.swift */,
+				DED9B0B925ED436300B637F2 /* SceneDelegate.swift */,
+				DED9B0BB25ED436300B637F2 /* ViewController.swift */,
+				DED9B0BD25ED436300B637F2 /* Main.storyboard */,
+				DED9B0C025ED436800B637F2 /* Assets.xcassets */,
+				DED9B0C225ED436800B637F2 /* LaunchScreen.storyboard */,
+				DED9B0C525ED436800B637F2 /* Info.plist */,
+			);
+			path = MariTechTestApp;
+			sourceTree = "<group>";
+		};
+		DED9B0CD25ED436900B637F2 /* MariTechTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B0CE25ED436900B637F2 /* MariTechTestAppTests.swift */,
+				DED9B0D025ED436900B637F2 /* Info.plist */,
+			);
+			path = MariTechTestAppTests;
+			sourceTree = "<group>";
+		};
+		DED9B0D825ED436900B637F2 /* MariTechTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B0D925ED436900B637F2 /* MariTechTestAppUITests.swift */,
+				DED9B0DB25ED436900B637F2 /* Info.plist */,
+			);
+			path = MariTechTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED9B0B325ED436300B637F2 /* MariTechTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED9B0DE25ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestApp" */;
+			buildPhases = (
+				DED9B0B025ED436300B637F2 /* Sources */,
+				DED9B0B125ED436300B637F2 /* Frameworks */,
+				DED9B0B225ED436300B637F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MariTechTestApp;
+			productName = MariTechTestApp;
+			productReference = DED9B0B425ED436300B637F2 /* MariTechTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DED9B0C925ED436900B637F2 /* MariTechTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED9B0E125ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppTests" */;
+			buildPhases = (
+				DED9B0C625ED436900B637F2 /* Sources */,
+				DED9B0C725ED436900B637F2 /* Frameworks */,
+				DED9B0C825ED436900B637F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED9B0CC25ED436900B637F2 /* PBXTargetDependency */,
+			);
+			name = MariTechTestAppTests;
+			productName = MariTechTestAppTests;
+			productReference = DED9B0CA25ED436900B637F2 /* MariTechTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DED9B0D425ED436900B637F2 /* MariTechTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED9B0E425ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppUITests" */;
+			buildPhases = (
+				DED9B0D125ED436900B637F2 /* Sources */,
+				DED9B0D225ED436900B637F2 /* Frameworks */,
+				DED9B0D325ED436900B637F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED9B0D725ED436900B637F2 /* PBXTargetDependency */,
+			);
+			name = MariTechTestAppUITests;
+			productName = MariTechTestAppUITests;
+			productReference = DED9B0D525ED436900B637F2 /* MariTechTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED9B0AC25ED436300B637F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DED9B0B325ED436300B637F2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DED9B0C925ED436900B637F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DED9B0B325ED436300B637F2;
+					};
+					DED9B0D425ED436900B637F2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DED9B0B325ED436300B637F2;
+					};
+				};
+			};
+			buildConfigurationList = DED9B0AF25ED436300B637F2 /* Build configuration list for PBXProject "MariTechTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED9B0AB25ED436200B637F2;
+			productRefGroup = DED9B0B525ED436300B637F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED9B0B325ED436300B637F2 /* MariTechTestApp */,
+				DED9B0C925ED436900B637F2 /* MariTechTestAppTests */,
+				DED9B0D425ED436900B637F2 /* MariTechTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED9B0B225ED436300B637F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9B0C425ED436800B637F2 /* LaunchScreen.storyboard in Resources */,
+				DED9B0C125ED436800B637F2 /* Assets.xcassets in Resources */,
+				DED9B0BF25ED436300B637F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0C825ED436900B637F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0D325ED436900B637F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED9B0B025ED436300B637F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */,
+				DED9B0B825ED436300B637F2 /* AppDelegate.swift in Sources */,
+				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0C625ED436900B637F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9B0CF25ED436900B637F2 /* MariTechTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED9B0D125ED436900B637F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9B0DA25ED436900B637F2 /* MariTechTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED9B0CC25ED436900B637F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED9B0B325ED436300B637F2 /* MariTechTestApp */;
+			targetProxy = DED9B0CB25ED436900B637F2 /* PBXContainerItemProxy */;
+		};
+		DED9B0D725ED436900B637F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED9B0B325ED436300B637F2 /* MariTechTestApp */;
+			targetProxy = DED9B0D625ED436900B637F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED9B0BD25ED436300B637F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED9B0BE25ED436300B637F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DED9B0C225ED436800B637F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED9B0C325ED436800B637F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED9B0DC25ED436900B637F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DED9B0DD25ED436900B637F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED9B0DF25ED436900B637F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED9B0E025ED436900B637F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DED9B0E225ED436900B637F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MariTechTestApp.app/MariTechTestApp";
+			};
+			name = Debug;
+		};
+		DED9B0E325ED436900B637F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MariTechTestApp.app/MariTechTestApp";
+			};
+			name = Release;
+		};
+		DED9B0E525ED436900B637F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MariTechTestApp;
+			};
+			name = Debug;
+		};
+		DED9B0E625ED436900B637F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L4NS6FSJ8;
+				INFOPLIST_FILE = MariTechTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TestAppMariTech.MariTechTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MariTechTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED9B0AF25ED436300B637F2 /* Build configuration list for PBXProject "MariTechTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED9B0DC25ED436900B637F2 /* Debug */,
+				DED9B0DD25ED436900B637F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED9B0DE25ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED9B0DF25ED436900B637F2 /* Debug */,
+				DED9B0E025ED436900B637F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED9B0E125ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED9B0E225ED436900B637F2 /* Debug */,
+				DED9B0E325ED436900B637F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED9B0E425ED436900B637F2 /* Build configuration list for PBXNativeTarget "MariTechTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED9B0E525ED436900B637F2 /* Debug */,
+				DED9B0E625ED436900B637F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED9B0AC25ED436300B637F2 /* Project object */;
+}

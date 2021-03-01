@@ -34,6 +34,8 @@
 		DED9B14E25ED4EB900B637F2 /* HistoryResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */; };
 		DED9B15325ED4EE100B637F2 /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15225ED4EE100B637F2 /* SearchHistory.swift */; };
 		DED9B15825ED4EE500B637F2 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15725ED4EE500B637F2 /* HistoryViewModel.swift */; };
+		DED9B16025ED4F9A00B637F2 /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15E25ED4F9A00B637F2 /* ImageSearchViewController.swift */; };
+		DED9B16125ED4F9A00B637F2 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B15F25ED4F9A00B637F2 /* ImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryResultCell.xib; sourceTree = "<group>"; };
 		DED9B15225ED4EE100B637F2 /* SearchHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistory.swift; sourceTree = "<group>"; };
 		DED9B15725ED4EE500B637F2 /* HistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		DED9B15E25ED4F9A00B637F2 /* ImageSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
+		DED9B15F25ED4F9A00B637F2 /* ImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +175,7 @@
 		DED9B0B625ED436300B637F2 /* MariTechTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				DED9B14825ED4E9900B637F2 /* Controllers */,
+				DED9B15C25ED4F3E00B637F2 /* UI */,
 				DED9B13625ED4E1A00B637F2 /* Extensions */,
 				DED9B12225ED4D3000B637F2 /* Helpers */,
 				DED9B10825ED47F800B637F2 /* Servises */,
@@ -273,6 +277,7 @@
 		DED9B14825ED4E9900B637F2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B15D25ED4F9A00B637F2 /* ImageSearch */,
 				DED9B14925ED4EAC00B637F2 /* History */,
 			);
 			path = Controllers;
@@ -295,6 +300,23 @@
 				DED9B14C25ED4EB900B637F2 /* HistoryResultCell.xib */,
 			);
 			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		DED9B15C25ED4F3E00B637F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B14825ED4E9900B637F2 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DED9B15D25ED4F9A00B637F2 /* ImageSearch */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B15E25ED4F9A00B637F2 /* ImageSearchViewController.swift */,
+				DED9B15F25ED4F9A00B637F2 /* ImageViewModel.swift */,
+			);
+			path = ImageSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,6 +564,7 @@
 				DED9B14425ED4E5600B637F2 /* OptionalBindingValue.swift in Sources */,
 				DED9B14D25ED4EB900B637F2 /* HistoryResultCell.swift in Sources */,
 				DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */,
+				DED9B16125ED4F9A00B637F2 /* ImageViewModel.swift in Sources */,
 				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B11C25ED4D0D00B637F2 /* SearchPhotoObject.swift in Sources */,
 				DED9B13A25ED4E1B00B637F2 /* UITableView+Register.swift in Sources */,
@@ -553,6 +576,7 @@
 				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
 				DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */,
 				DED9B13F25ED4E5200B637F2 /* BindingValue.swift in Sources */,
+				DED9B16025ED4F9A00B637F2 /* ImageSearchViewController.swift in Sources */,
 				DED9B15325ED4EE100B637F2 /* SearchHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,8 @@
 		DED9B11E25ED4D0D00B637F2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B11A25ED4D0D00B637F2 /* Images.swift */; };
 		DED9B12425ED4D3A00B637F2 /* MariTechError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B12325ED4D3A00B637F2 /* MariTechError.swift */; };
 		DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */; };
+		DED9B13925ED4E1B00B637F2 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13725ED4E1A00B637F2 /* UIView+Nib.swift */; };
+		DED9B13A25ED4E1B00B637F2 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		DED9B11A25ED4D0D00B637F2 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		DED9B12325ED4D3A00B637F2 /* MariTechError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariTechError.swift; sourceTree = "<group>"; };
 		DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetchServise.swift; sourceTree = "<group>"; };
+		DED9B13725ED4E1A00B637F2 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		DED9B0B625ED436300B637F2 /* MariTechTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B13625ED4E1A00B637F2 /* Extensions */,
 				DED9B12225ED4D3000B637F2 /* Helpers */,
 				DED9B10825ED47F800B637F2 /* Servises */,
 				DED9B0B725ED436300B637F2 /* AppDelegate.swift */,
@@ -239,6 +244,15 @@
 				DED9B12325ED4D3A00B637F2 /* MariTechError.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DED9B13625ED4E1A00B637F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DED9B13725ED4E1A00B637F2 /* UIView+Nib.swift */,
+				DED9B13825ED4E1A00B637F2 /* UITableView+Register.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,9 +498,11 @@
 				DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */,
 				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B11C25ED4D0D00B637F2 /* SearchPhotoObject.swift in Sources */,
+				DED9B13A25ED4E1B00B637F2 /* UITableView+Register.swift in Sources */,
 				DED9B11E25ED4D0D00B637F2 /* Images.swift in Sources */,
 				DED9B11D25ED4D0D00B637F2 /* SearchResponse.swift in Sources */,
 				DED9B0B825ED436300B637F2 /* AppDelegate.swift in Sources */,
+				DED9B13925ED4E1B00B637F2 /* UIView+Nib.swift in Sources */,
 				DED9B12425ED4D3A00B637F2 /* MariTechError.swift in Sources */,
 				DED9B0BA25ED436300B637F2 /* SceneDelegate.swift in Sources */,
 				DED9B11125ED483E00B637F2 /* PhotoObject.swift in Sources */,

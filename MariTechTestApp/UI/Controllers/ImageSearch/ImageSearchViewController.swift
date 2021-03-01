@@ -1,3 +1,4 @@
+
 import UIKit
 
 class ImageSearchViewController: UIViewController {
@@ -80,7 +81,7 @@ class ImageSearchViewController: UIViewController {
     
 }
 
-extension ViewController: SearchHistoryDelegate {
+extension ImageSearchViewController: SearchHistoryDelegate {
     
     func didSelected(historyItem: PhotoObject) {
         searchController.searchBar.text = historyItem.name
@@ -89,21 +90,21 @@ extension ViewController: SearchHistoryDelegate {
     
 }
 
-extension ViewController: UISearchResultsUpdating {
+extension ImageSearchViewController: UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
         updateSearchHistory()
     }
 }
 
-extension ViewController: UISearchControllerDelegate {
+extension ImageSearchViewController: UISearchControllerDelegate {
     
     func didPresentSearchController(_ searchController: UISearchController) {
         updateSearchHistory()
     }
 }
 
-extension ViewController: UISearchBarDelegate {
+extension ImageSearchViewController: UISearchBarDelegate {
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         

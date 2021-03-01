@@ -25,6 +25,7 @@
 		DED9B11D25ED4D0D00B637F2 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B11925ED4D0D00B637F2 /* SearchResponse.swift */; };
 		DED9B11E25ED4D0D00B637F2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B11A25ED4D0D00B637F2 /* Images.swift */; };
 		DED9B12425ED4D3A00B637F2 /* MariTechError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B12325ED4D3A00B637F2 /* MariTechError.swift */; };
+		DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		DED9B11925ED4D0D00B637F2 /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		DED9B11A25ED4D0D00B637F2 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		DED9B12325ED4D3A00B637F2 /* MariTechError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MariTechError.swift; sourceTree = "<group>"; };
+		DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetchServise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		DED9B10825ED47F800B637F2 /* Servises */ = {
 			isa = PBXGroup;
 			children = (
+				DED9B12825ED4DC100B637F2 /* ImageFetchServise.swift */,
 				DED9B11525ED4D0D00B637F2 /* Network */,
 				DED9B10F25ED483E00B637F2 /* Models */,
 				DED9B10925ED481D00B637F2 /* Realm */,
@@ -478,6 +481,7 @@
 			files = (
 				DED9B11B25ED4D0D00B637F2 /* NetworkManager.swift in Sources */,
 				DED9B0BC25ED436300B637F2 /* ViewController.swift in Sources */,
+				DED9B12925ED4DC100B637F2 /* ImageFetchServise.swift in Sources */,
 				DED9B10B25ED481D00B637F2 /* RealmManager.swift in Sources */,
 				DED9B11C25ED4D0D00B637F2 /* SearchPhotoObject.swift in Sources */,
 				DED9B11E25ED4D0D00B637F2 /* Images.swift in Sources */,
